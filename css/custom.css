@@ -13,10 +13,17 @@ p {
 .codeup-hdr{
     font-size: 40px;
 }
+.logo {
+    height: 60px;
+    position: relative;
+}
 .logo img{
     width: 105px;
     height: 105px;
     border: none;
+    z-index: 2;
+    position: absolute;
+    bottom: -25px;
 }
 
 i {
