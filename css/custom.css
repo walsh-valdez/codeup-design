@@ -25,6 +25,9 @@ p {
     position: absolute;
     bottom: -25px;
 }
+nav {
+    margin: auto;
+}
 
 i {
     margin: 2px;
