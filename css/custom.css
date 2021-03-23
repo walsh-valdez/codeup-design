@@ -12,9 +12,22 @@ p {
 .logo img{
     width: 105px;
     height: 105px;
+    border: none;
 }
 
 i {
     width: 18px;
     height: 18px;
+}
+
+.container-fluid {
+    background-color: #F0F0F0;
+}
+
+.card {
+    background-color: #F0F0F0;
+}
+
+img {
+    border: 10px solid #E6E6E6;
 }
