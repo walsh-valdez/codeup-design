@@ -108,8 +108,14 @@ i {
 }
 
 img {
-
+    width: 411px;
+    height: 280px;
     border: 10px solid #E6E6E6;
+}
+.right-nav{
+    width:30px;
+    height: 30px;
+    border: none;
 }
 h1{
     font-size: 64px;
