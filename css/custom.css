@@ -5,6 +5,7 @@ html{
 body{
 
     font-family: 'Anton', sans-serif;
+    overflow-x: hidden;
 }
 p {
     font-family: 'Abel', sans-serif;
@@ -32,8 +33,17 @@ p {
         bottom: 0;
     }
 }
+.last-tweet{
+    font-size: 22px;
+}
+.tweet-body{
+    width: 83%;
+}
 #twitter {
-    color: skyblue;
+    color: #00aced;
+   font-size: 30px;
+   position: relative;
+   bottom: -5px;
 }
 /*
 @media screen and (min-width: 768px) {
@@ -103,6 +113,7 @@ i {
 
 .container-fluid {
     background-color: #F0F0F0;
+    overflow: hidden;
 }
 
 .card {
@@ -121,7 +132,7 @@ img {
     border: none;
 }
 .right-article{
-    height: 100px;
+    height: 125px;
 }
 
 h1{
@@ -138,4 +149,7 @@ h4{
 }
 h5{
     font-size: 28px;
+}
+h6{
+    font-size: 26px;
 }
