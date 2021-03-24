@@ -25,6 +25,20 @@ p {
     position: absolute;
     bottom: -25px;
 }
+
+@media screen and (min-width: 768px) {
+    .logo img {
+        left: 30px;
+    }
+}
+@media screen and (min-width: 992px){
+    .logo img{
+        left: 65%;
+    }
+}
+.codeup-design-md-lg{
+    font-size: 2rem;
+}
 nav {
     margin: auto;
 }
