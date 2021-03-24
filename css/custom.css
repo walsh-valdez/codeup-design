@@ -32,6 +32,9 @@ p {
         bottom: 0;
     }
 }
+#twitter {
+    color: skyblue;
+}
 /*
 @media screen and (min-width: 768px) {
     .logo img {
@@ -113,10 +116,14 @@ img {
     border: 10px solid #E6E6E6;
 }
 .right-nav{
-    width:30px;
-    height: 30px;
+    width: 75px;
+    height: 75px;
     border: none;
 }
+.right-article{
+    height: 100px;
+}
+
 h1{
     font-size: 64px;
 }
