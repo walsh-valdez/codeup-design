@@ -7,6 +7,20 @@ body{
     font-family: 'Anton', sans-serif;
     overflow-x: hidden;
 }
+.main {
+    padding: 0;
+}
+@media screen and (min-width: 992px) {
+    .main {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .white-row {
+        width: 150%;
+        position: relative;
+        left: -25%;
+    }
+}
 p {
     font-family: 'Abel', sans-serif;
 
@@ -92,11 +106,17 @@ i {
 }
 .circles{
     margin:10px;
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     border: 5px solid white;
     color: white;
     border-radius: 50%;
+}
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    .circles {
+        width: 140px;
+        height: 140px;
+    }
 }
 .design{
     background-color: #e6563b;
