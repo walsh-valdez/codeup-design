@@ -5,22 +5,13 @@ html{
 body{
 
     font-family: 'Anton', sans-serif;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
+    height: 100%;
 }
 .main {
     padding: 0;
 }
-@media screen and (min-width: 992px) {
-    .main {
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-    .white-row {
-        width: 150%;
-        position: relative;
-        left: -25%;
-    }
-}
+
 p {
     font-family: 'Abel', sans-serif;
 
@@ -39,13 +30,6 @@ p {
     z-index: 2;
     position: absolute;
     bottom: -25px;
-}
-@media screen and (min-width: 768px) {
-    .logo img {
-        z-index: 0;
-        position: relative;
-        bottom: 0;
-    }
 }
 .last-tweet{
     font-size: 22px;
@@ -80,7 +64,6 @@ a {
     font-family: 'Abel', sans-serif;
     color: black;
 }
-
 i {
     margin: 2px;
     width: 18px;
@@ -112,12 +95,7 @@ i {
     color: white;
     border-radius: 50%;
 }
-@media screen and (max-width: 767px) and (min-width: 576px) {
-    .circles {
-        width: 140px;
-        height: 140px;
-    }
-}
+
 .design{
     background-color: #e6563b;
 }
@@ -133,7 +111,8 @@ i {
 
 .container-fluid {
     background-color: #F0F0F0;
-    overflow: hidden;
+    /*overflow: hidden;*/
+    height: 100%;
 }
 
 .card {
@@ -154,7 +133,6 @@ img {
 .right-article{
     height: 125px;
 }
-
 h1{
     font-size: 64px;
 }
@@ -171,5 +149,41 @@ h5{
     font-size: 28px;
 }
 h6{
-    font-size: 26px;
+    font-size: 28px;
+}
+@media screen and (min-width: 992px) {
+    .main {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .white-row {
+        width: 150%;
+        position: relative;
+        left: -25%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .logo img {
+        z-index: 0;
+        position: relative;
+        bottom: 0;
+    }
+    h6{
+        font-size: 18px;
+    }
+
+}
+/*@media screen and (max-width: 767px) and (min-width: 576px) {*/
+/*    .circles {*/
+/*        width: 140px;*/
+/*        height: 140px;*/
+/*    }*/
+/*}*/
+@media screen and (min-width: 550px) {
+    .circles {
+        margin: 10px;
+        width: 130px;
+        height: 130px;
+        font-size: 25px;
+    }
 }
